@@ -1,0 +1,132 @@
+:root {
+    --dark: #212121 !important;
+    --secondary: #363636 !important;
+    --light: #d4d4d4 !important;
+}
+
+body {
+    font-family: 'Montserrat', 'Open Sans', sans-serif !important;
+    background-color: var(--secondary) !important;
+    color: var(--light) !important;
+}
+
+.bg-contrast {
+    background-color: var(--dark);
+}
+
+.main_content {
+    padding: 3.5em;
+}
+
+.main_content h1 {
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+/* Navbar */
+
+.navbar_custom {
+    padding: 5px 25px;
+}
+
+.nav-link {
+    color: var(--light) !important;
+    font-size: 18px;
+    margin: 0 15px;
+}
+
+.nav-link:hover {
+    color: #fff !important;
+}
+
+/* Welcome */
+
+.welcome {
+    position: relative;
+    background-color: black;
+    height: 40vh;
+    min-height: 25rem;
+    max-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.welcome_video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.welcome_logo {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+}
+
+.welcome_logo_item {
+    max-width: 40rem;
+}
+
+/* Team */
+
+.team_image img {
+    object-fit: cover;
+    object-position: 50% 50%;
+    height: 300px;
+}
+
+/* Achievements */
+
+.carousel-item img {
+    object-fit: cover;
+    object-position: 50% 50%;
+    height: 300px;
+}
+
+/* Social media */
+
+.social-media {
+    margin-right: 25px;
+}
+
+.icon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 10px 15px 25px;
+    background-size: cover;
+    filter: invert(0%) sepia(4%) saturate(5511%) hue-rotate(345deg) brightness(82%) contrast(87%);
+}
+
+.icon_facebook {
+    background-image: url("../assets/svg/facebook.svg");
+}
+
+.icon_facebook:hover {
+    filter: invert(48%) sepia(56%) saturate(5090%) hue-rotate(201deg) brightness(104%) contrast(98%);
+}
+
+.icon_youtube {
+    background-image: url("../assets/svg/youtube.svg");
+}
+
+.icon_youtube:hover {
+    filter: invert(28%) sepia(93%) saturate(3172%) hue-rotate(350deg) brightness(107%) contrast(83%);
+}
+
+.icon_instagram {
+    background-image: url("../assets/svg/instagram.svg");
+}
+
+.icon_instagram:hover {
+    filter: invert(39%) sepia(73%) saturate(510%) hue-rotate(278deg) brightness(95%) contrast(86%);
+}
