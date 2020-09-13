@@ -1,0 +1,70 @@
+:root {
+    --dark: #212121 !important;
+    --secondary: #272727 !important;
+    --light: #d4d4d4 !important;
+}
+
+body {
+    font-family: 'Montserrat', 'Open Sans', sans-serif !important;
+    background-color: var(--secondary) !important;
+    color: var(--light) !important;
+}
+
+.bg-contrast {
+    background-color: var(--dark);
+}
+
+.navbar_custom {
+    padding: 5px 25px;
+}
+
+.nav-link {
+    color: var(--light) !important;
+    font-size: 18px;
+    margin: 0 15px;
+}
+
+.nav-link:hover {
+    color: #fff !important;
+}
+
+.social-media {
+    margin-right: 25px;
+}
+
+.welcome-image {
+    padding: 80px;
+}
+
+.icon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 10px 15px 25px;
+    background-size: cover;
+    filter: invert(0%) sepia(4%) saturate(5511%) hue-rotate(345deg) brightness(82%) contrast(87%);
+}
+
+.icon_facebook {
+    background-image: url("../imgs/facebook.svg");
+}
+
+.icon_facebook:hover {
+    filter: invert(48%) sepia(56%) saturate(5090%) hue-rotate(201deg) brightness(104%) contrast(98%);
+}
+
+.icon_youtube {
+    background-image: url("../imgs/youtube.svg");
+}
+
+.icon_youtube:hover {
+    filter: invert(28%) sepia(93%) saturate(3172%) hue-rotate(350deg) brightness(107%) contrast(83%);
+}
+
+.icon_instagram {
+    background-image: url("../imgs/instagram.svg");
+}
+
+.icon_instagram:hover {
+    filter: invert(39%) sepia(73%) saturate(510%) hue-rotate(278deg) brightness(95%) contrast(86%);
+}
