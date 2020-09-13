@@ -43,7 +43,8 @@ body {
 
 .welcome {
     position: relative;
-    background-color: black;
+    background-color: var(--dark) !important;
+    margin-top: 4em;
     height: 40vh;
     min-height: 25rem;
     max-height: 25rem;
@@ -92,17 +93,65 @@ body {
     height: 300px;
 }
 
+/* Courses */
+
+.courses_list {
+  display: flex;
+  margin: 50px auto 0 auto;
+  max-width: 95%;
+}
+
+.courses_item {
+  position: relative;
+  display: block;
+  flex: 1 1 0px;
+  transition: transform 500ms;
+}
+
+.courses_list:focus-within .courses_item,
+.courses_list:hover .courses_item {
+  transform: translateX(-25%);
+}
+
+.courses_item:focus ~ .courses_item,
+.courses_item:hover ~ .courses_item {
+  transform: translateX(25%);
+}
+
+.courses_list .courses_item:focus,
+.courses_list .courses_item:hover {
+  transform: scale(1.5);
+  z-index: 1;
+}
+
+.courses_item img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+  height: 130px;
+}
+
+/* Support */
+
+.support .btn {
+    margin: 0.2em auto;
+    width: 60%;
+}
+
 /* Social media */
 
 .social-media {
-    margin-right: 25px;
+    position: absolute;
+    margin: auto 1em 1em auto;
+    max-width: 35px;
 }
 
 .icon {
     display: inline-block;
-    width: 50px;
-    height: 50px;
-    margin: 10px 15px 25px;
+    width: 35px;
+    height: 35px;
+    margin: 0.35em 0;
     background-size: cover;
     filter: invert(0%) sepia(4%) saturate(5511%) hue-rotate(345deg) brightness(82%) contrast(87%);
 }
