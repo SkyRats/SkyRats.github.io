@@ -1,6 +1,6 @@
 :root {
     --dark: #212121 !important;
-    --secondary: #272727 !important;
+    --secondary: #363636 !important;
     --light: #d4d4d4 !important;
 }
 
@@ -13,6 +13,17 @@ body {
 .bg-contrast {
     background-color: var(--dark);
 }
+
+.main_content {
+    padding: 3.5em;
+}
+
+.main_content h1 {
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+/* Navbar */
 
 .navbar_custom {
     padding: 5px 25px;
@@ -28,12 +39,63 @@ body {
     color: #fff !important;
 }
 
-.social-media {
-    margin-right: 25px;
+/* Welcome */
+
+.welcome {
+    position: relative;
+    background-color: black;
+    height: 40vh;
+    min-height: 25rem;
+    max-height: 25rem;
+    width: 100%;
+    overflow: hidden;
 }
 
-.welcome-image {
-    padding: 80px;
+.welcome_video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.welcome_logo {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+}
+
+.welcome_logo_item {
+    max-width: 40rem;
+}
+
+/* Team */
+
+.team_image img {
+    object-fit: cover;
+    object-position: 50% 50%;
+    height: 300px;
+}
+
+/* Achievements */
+
+.carousel-item img {
+    object-fit: cover;
+    object-position: 50% 50%;
+    height: 300px;
+}
+
+/* Social media */
+
+.social-media {
+    margin-right: 25px;
 }
 
 .icon {
@@ -46,7 +108,7 @@ body {
 }
 
 .icon_facebook {
-    background-image: url("../imgs/facebook.svg");
+    background-image: url("../assets/svg/facebook.svg");
 }
 
 .icon_facebook:hover {
@@ -54,7 +116,7 @@ body {
 }
 
 .icon_youtube {
-    background-image: url("../imgs/youtube.svg");
+    background-image: url("../assets/svg/youtube.svg");
 }
 
 .icon_youtube:hover {
@@ -62,7 +124,7 @@ body {
 }
 
 .icon_instagram {
-    background-image: url("../imgs/instagram.svg");
+    background-image: url("../assets/svg/instagram.svg");
 }
 
 .icon_instagram:hover {

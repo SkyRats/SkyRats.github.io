@@ -17,76 +17,134 @@
 </head>
 
 <body>
-  <header>
-    <!-- Navbar -->
-    <div class="navbar_custom justify-content-between bg-contrast d-flex">
-      <a class="navbar-brand" href="#">
-        <img src="imgs/logo-name.svg" width="110" class="align-center" alt="Skyrats Logo" loading="lazy">
-      </a>
-      <nav class="navbar navbar-dark navbar-expand-lg p-0">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end align-content-center" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link p-0" href="#">A Equipe</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link p-0" href="#">Conquistas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link p-0" href="#">Cursos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link p-0" href="#">Patrocinadores</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link p-0" href="#">Apoia-se</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link p-0" href="#">Conquistas</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-  </header>
+<header>
+  <!-- Navbar -->
+  <section class="navbar_custom justify-content-between bg-contrast d-flex">
+    <a class="navbar-brand" href="#">
+      <img src="assets/svg/logo-name.svg" width="110" class="align-center" alt="Skyrats Logo" loading="lazy">
+    </a>
+    <nav class="navbar navbar-dark navbar-expand-lg p-0">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end align-content-center" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link p-0" href="#">A Equipe</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-0" href="#">Conquistas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-0" href="#">Cursos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-0" href="#">Patrocinadores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-0" href="#">Apoia-se</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-0" href="#">Conquistas</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </section>
 
   <!-- Welcome section -->
-  <section class="welcome-image justify-content-center d-flex">
-    <img src="imgs/logo-name.svg" width="800" class="align-center" alt="" loading="lazy">
+  <section class="welcome">
+    <video class="welcome_video" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+      <source src="assets/mp4/institucional.mov" type="video/mp4">
+    </video>
+    <div class="welcome_logo h-100 w-100 d-flex align-content-center justify-content-center">
+      <img src="assets/svg/logo-name.svg" width="800" class="welcome_logo_item" alt="" loading="lazy">
+    </div>
   </section>
+</header>
 
-  <!-- Team -->
-  <section class="team">
-    <h1>A equipe</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  </section>
+<!-- Team -->
+<section class="team main_content w-100 row m-0">
+  <div class="col-6">
+    <h1>A Equipe</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <a href="#" class="btn btn-outline-light" role="button">Conheça os integrantes</a>
+  </div>
+  <div class="col-6 team_image">
+    <img src="assets/png/team.jpg" alt="Time da Sky" class="d-block w-100">
+  </div>
+</section>
 
-  <!-- Social media -->
-  <section class="d-flex social-media justify-content-end fixed-bottom">
-    <a href="https://www.facebook.com/skyrats" class="social-media_link">
-      <svg class="icon icon_facebook"></svg>
-    </a>
-    <a href="https://www.youtube.com/channel/UCqfS69jrelthOP8OVZx0E7w">
-      <svg class="icon icon_youtube"></svg>
-    </a>
-    <a href="https://www.instagram.com/skyrats_drones/">
-      <svg class="icon icon_instagram"></svg>
-    </a>
-  </section>
+<!-- Achievements -->
+<section class="main_content achievements">
+  <div class="row">
+    <div class="col-6">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/png/achievement2.jpg" class="d-block w-100" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/png/achievement1.png" class="d-block w-100" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/png/achievement3.jpg" class="d-block w-100" alt="">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <div class="col-6">
+      <h1>Conquistas</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna
+        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+        sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <a href="#" class="btn btn-outline-light" role="button">Veja a linha do tempo na íntegra</a>
+    </div>
+  </div>
+</section>
 
-  <!-- Bootstrap JS files -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-          integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-          crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-          integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-          crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-          integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-          crossorigin="anonymous"></script>
+<!-- Social media -->
+<section class="d-flex social-media justify-content-end fixed-bottom">
+  <a href="https://www.facebook.com/skyrats" class="social-media_link">
+    <svg class="icon icon_facebook"></svg>
+  </a>
+  <a href="https://www.youtube.com/channel/UCqfS69jrelthOP8OVZx0E7w">
+    <svg class="icon icon_youtube"></svg>
+  </a>
+  <a href="https://www.instagram.com/skyrats_drones/">
+    <svg class="icon icon_instagram"></svg>
+  </a>
+</section>
+
+<!-- Bootstrap JS files -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
 </body>
 </html>
