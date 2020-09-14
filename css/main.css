@@ -125,8 +125,6 @@ body {
 }
 
 .courses_item img {
-  display: block;
-  max-width: 100%;
   object-fit: cover;
   object-position: 50% 50%;
   height: 130px;
@@ -136,7 +134,30 @@ body {
 
 .support .btn {
     margin: 0.2em auto;
-    width: 60%;
+    width: 75%;
+}
+
+/* Sponsors */
+
+.sponsor-picture {
+    justify-content: space-evenly;
+    padding-bottom: 2em;
+}
+
+.sponsor-picture img {
+  display: block;
+  object-fit: cover;
+  object-position: 50% 0;
+  height: 150px;
+  width: 200px;
+}
+
+/* Contact */
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Social media */
