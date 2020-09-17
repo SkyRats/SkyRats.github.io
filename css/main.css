@@ -5,9 +5,9 @@
 }
 
 body {
-    font-family: 'Montserrat', 'Open Sans', sans-serif !important;
-    background-color: var(--secondary) !important;
-    color: var(--light) !important;
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
+    background-color: var(--secondary);
+    color: var(--light);
 }
 
 .bg-contrast {
@@ -45,9 +45,9 @@ body {
     position: relative;
     background-color: var(--dark) !important;
     margin-top: 4em;
-    height: 40vh;
+    height: 75vh;
     min-height: 25rem;
-    max-height: 25rem;
+    max-height: 50rem;
     width: 100%;
     overflow: hidden;
 }
@@ -163,7 +163,6 @@ body {
 /* Social media */
 
 .social-media {
-    position: absolute;
     margin: auto 1em 1em auto;
     max-width: 35px;
 }
