@@ -15,7 +15,7 @@ body {
 }
 
 .main_content {
-    padding: 3.5em;
+    padding: 3em 4em;
 }
 
 .main_content h1 {
@@ -37,10 +37,6 @@ body {
 
 .nav-link:hover {
     color: #fff !important;
-}
-
-.text {
-    padding: 56px;
 }
 
 /* Welcome */
@@ -84,7 +80,11 @@ body {
 .team_image img {
     object-fit: cover;
     object-position: 50% 50%;
-    height: 550px;
+    width: 100%;
+}
+
+.team_text {
+    margin: auto;
 }
 
 /* Achievements */
@@ -92,44 +92,26 @@ body {
 .carousel-item img {
     object-fit: cover;
     object-position: 50% 50%;
-    height: 550px;
+    height: 350px;
+}
+
+.achievements_text {
+    padding: 0 56px 0 56px;
+    margin: auto;
 }
 
 /* Courses */
 
-.courses_list {
-  display: flex;
-  margin: 50px auto 0 auto;
-  max-width: 95%;
+.courses {
+    padding: 4em;
 }
 
-.courses_item {
-  position: relative;
-  display: block;
-  flex: 1 1 0;
-  transition: transform 500ms;
+.courses_text {
+    margin: auto 2em auto 0;
 }
 
-.courses_list:focus-within .courses_item,
-.courses_list:hover .courses_item {
-  transform: translateX(-25%);
-}
-
-.courses_item:focus ~ .courses_item,
-.courses_item:hover ~ .courses_item {
-  transform: translateX(25%);
-}
-
-.courses_list .courses_item:focus,
-.courses_list .courses_item:hover {
-  transform: scale(1.5);
-  z-index: 1;
-}
-
-.courses_item img {
-  object-fit: cover;
-  object-position: 50% 50%;
-  height: 130px;
+.courses_text .github-card {
+    margin: auto !important;
 }
 
 /* Support */
