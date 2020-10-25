@@ -134,9 +134,15 @@ body {
   width: 200px;
 }
 
-/* Contact */
+/* Footer */
+.footer a {
+    color: var(--light);
+}
 
-
+.footer iframe {
+    width: 100%;
+    height: 20em;
+}
 
 /* Social media */
 
