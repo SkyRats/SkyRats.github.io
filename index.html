@@ -45,10 +45,7 @@
                         <a class="nav-link p-0" href="#">Conquistas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link p-0" href="#">Cursos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link p-0" href="#">Patrocinadores</a>
+                        <a class="nav-link p-0" href="#courses">Cursos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link p-0" href="#">Apoia-se</a>
@@ -88,8 +85,8 @@
 </section>
 
 <!-- Achievements -->
-<section class="main_content achievements row m-0 p-0">
-    <div class="col-6 p-0">
+<section class="main_content achievements row m-0">
+    <div class="col-6">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -128,8 +125,8 @@
 </section>
 
 <!-- Courses -->
-<section class="main_content courses d-flex">
-    <div class="courses_text">
+<section class="main_content courses row m-0" id="courses">
+    <div class="courses_text col-6 d-flex flex-column">
         <h1>Cursos</h1>
         <p>Voltados em retornar o conhecimento a nossa sociedade, a SkyRats produziu uma série de cursos utilizados
             internamente para ensinar os integrantes do grupo sobre as tecnologias necessárias para a equipe. Confira a
@@ -138,9 +135,8 @@
         <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
 
     </div>
-    <div class="courses_playlist">
-        <iframe width="672" height="378"
-                src="https://www.youtube.com/embed/videoseries?list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc" frameborder="0"
+    <div class="courses_playlist col-6">
+        <iframe src="https://www.youtube.com/embed/videoseries?list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
     </div>
@@ -197,11 +193,22 @@
 </section>
 
 <!-- Contact -->
-<section class="main_content contact">
-    <h3>Acompanhe nosso trabalho!</h3>
-    <div class="github-card" data-github="SkyRats" data-theme="default"></div>
-    <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
-</section>
+<footer class="main_content contact bg-black row m-0">
+    <div class="col-3">
+        <h4>Acompanhe nossas redes sociais</h4>
+        <a>Facebook</a>
+        <a>Youtube</a>
+        <a>Instagram</a>
+    </div>
+    <div class="col-3">
+        <h4>Confira nosso trabalho</h4>
+        <a>LinkedIn</a>
+        <a>GitHub</a>
+    </div>
+    <div class="col-6">
+        <h4>Nosso endereço</h4>
+    </div>
+</footer>
 
 <!-- Social media -->
 <section class="d-flex flex-column social-media fixed-bottom">
