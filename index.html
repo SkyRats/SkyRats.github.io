@@ -45,16 +45,10 @@
                         <a class="nav-link p-0" href="#">Conquistas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link p-0" href="#">Cursos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link p-0" href="#">Patrocinadores</a>
+                        <a class="nav-link p-0" href="#courses">Cursos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link p-0" href="#">Apoia-se</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link p-0" href="#">Contato</a>
                     </li>
                 </ul>
             </div>
@@ -88,8 +82,8 @@
 </section>
 
 <!-- Achievements -->
-<section class="main_content achievements row m-0 p-0">
-    <div class="col-6 p-0">
+<section class="main_content achievements row m-0">
+    <div class="col-6">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -128,8 +122,8 @@
 </section>
 
 <!-- Courses -->
-<section class="main_content courses d-flex">
-    <div class="courses_text">
+<section class="main_content courses row m-0" id="courses">
+    <div class="courses_text col-6 d-flex flex-column">
         <h1>Cursos</h1>
         <p>Voltados em retornar o conhecimento a nossa sociedade, a SkyRats produziu uma série de cursos utilizados
             internamente para ensinar os integrantes do grupo sobre as tecnologias necessárias para a equipe. Confira a
@@ -138,9 +132,8 @@
         <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
 
     </div>
-    <div class="courses_playlist">
-        <iframe width="672" height="378"
-                src="https://www.youtube.com/embed/videoseries?list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc" frameborder="0"
+    <div class="courses_playlist col-6">
+        <iframe src="https://www.youtube.com/embed/videoseries?list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
     </div>
@@ -196,12 +189,33 @@
     </div>
 </section>
 
-<!-- Contact -->
-<section class="main_content contact">
-    <h3>Acompanhe nosso trabalho!</h3>
-    <div class="github-card" data-github="SkyRats" data-theme="default"></div>
-    <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
-</section>
+<!-- Footer -->
+<footer class="main_content footer bg-black row m-0">
+    <div class="col-3 d-flex flex-column">
+        <h4>Páginas do site</h4>
+        <ul>
+            <li><a href="#">Membros da Equipe</a></li>
+            <li><a href="#">Histórico das Conquistas</a></li>
+            <li><a href="#">Apoie nosso time</a></li>
+        </ul>
+    </div>
+    <div class="col-3 d-flex flex-column">
+        <h4>Acompanhe-nos</h4>
+        <ul>
+            <li><a href="https://www.facebook.com/skyrats" class="social-media_link">Facebook</a></li>
+            <li><a href="https://www.youtube.com/channel/UCqfS69jrelthOP8OVZx0E7w">Youtube</a></li>
+            <li><a href="https://www.instagram.com/skyrats_drones/">Instagram</a></li>
+            <li><a href="https://www.linkedin.com/company/skyrats/">LinkedIn</a></li>
+            <li><a href="https://github.com/SkyRats">GitHub</a></li>
+        </ul>
+    </div>
+    <div class="col-6">
+        <h4>Nosso endereço</h4>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14629.360280642833!2d-46.7298033!3d-23.5562268!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x12e667dec7359a84!2sCentro%20Interdisciplinar%20de%20Tecnologias%20Interativas%20(CITI)!5e0!3m2!1sen!2sbr!4v1603604399938!5m2!1sen!2sbr"
+                frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+    </div>
+</footer>
 
 <!-- Social media -->
 <section class="d-flex flex-column social-media fixed-bottom">

@@ -14,6 +14,10 @@ body {
     background-color: var(--dark);
 }
 
+.bg-black {
+    background-color: #131313;
+}
+
 .main_content {
     padding: 3em 4em;
 }
@@ -96,22 +100,16 @@ body {
 }
 
 .achievements_text {
-    padding: 0 56px 0 56px;
     margin: auto;
 }
 
 /* Courses */
 
-.courses {
-    padding: 4em;
-}
 
-.courses_text {
-    margin: auto 2em auto 0;
-}
-
-.courses_text .github-card {
-    margin: auto !important;
+.courses_playlist iframe {
+    width: 100%;
+    height: 20em;
+    margin: auto;
 }
 
 /* Support */
@@ -136,12 +134,14 @@ body {
   width: 200px;
 }
 
-/* Contact */
-.contact {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+/* Footer */
+.footer a {
+    color: var(--light);
+}
+
+.footer iframe {
+    width: 100%;
+    height: 20em;
 }
 
 /* Social media */
